@@ -28,10 +28,21 @@ class Google_Service_Analytics_Profiles extends Google_Collection
   public $totalResults;
   public $username;
 
+  /**
+   * sets Google_Service_Analytics_Profile array
+   *
+   * @param $items Google_Service_Analytics_Profile[]
+   */
   public function setItems($items)
   {
     $this->items = $items;
   }
+
+  /**
+   * returns array of Google_Service_Analytics_Profile instances
+   *
+   * @return Google_Service_Analytics_Profile[]
+   */
   public function getItems()
   {
     return $this->items;
